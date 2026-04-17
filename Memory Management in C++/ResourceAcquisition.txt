@@ -1,0 +1,6 @@
+RAII is a programming idiom where resource allocation is tied to object lifetime. Resources are acquired during object creation (constructor) and released during object destruction (destructor). This ensures that resources are properly released, even in the presence of exceptions.
+Explanation:
+
+FileHandler's constructor opens a file.
+The destructor ensures that the file is closed when the FileHandler object goes out of scope.
+Even if an exception is thrown, the destructor is called, preventing resource leaks.
