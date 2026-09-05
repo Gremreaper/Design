@@ -1,0 +1,4 @@
+1. Automatic (Stack) Memory Management :
+
+Variables declared inside a function are typically allocated on the stack. The memory is automatically managed; it’s allocated when the variable is declared and deallocated when the variable goes out of scope.
+
